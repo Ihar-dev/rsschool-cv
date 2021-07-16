@@ -10,7 +10,7 @@ ___
 
 ___
 ## Summary
-I`m employee with a broad range of experience, skills and knowledge who is both capable of assigning the tasks and performing ones. Developing soft skills and personality is an important sphere of my interest.
+I`m an employee with a broad range of experience, skills and knowledge who is both capable of assigning the tasks and performing ones. Developing soft skills and personality is an important sphere of my interest.
 ## Skills
 Basic knowledge of:
 * HTML, CSS, Bootstrap, Javascript.
