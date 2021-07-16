@@ -1,7 +1,7 @@
-#Ihar Kozik
-##JavaScript/Front-end Developer
+# Ihar Kozik
+## JavaScript/Front-end Developer
 ___
-##Contacts
+## Contacts
 * Phone: **+375298484950**
 * Email: ihar.kozik@gmail.com
 * Telegram : [@igorintelegram](http://t.me/igorintelegram)
