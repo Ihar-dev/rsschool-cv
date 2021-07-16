@@ -1,1 +1,1 @@
-# rsschool-cv
+https://Ihar-dev.github.io/rsschool-cv/cv
