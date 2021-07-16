@@ -6,7 +6,8 @@ ___
 * Email: ihar.kozik@gmail.com
 * Telegram : [@igorintelegram](http://t.me/igorintelegram)
 * Discord: *Ihar (@Ihar-dev)* [rs-school](https://discord.gg/gFnRh8Sudg)
-* [YouTube](https://www.youtube.com/channel/UCA_mYt13qDH00SMDmPi--MQ/videos) 
+* [YouTube](https://www.youtube.com/channel/UCA_mYt13qDH00SMDmPi--MQ/videos)
+
 ___
 ## Summary
 I`m employee with a broad range of experience, skills and knowledge who is both capable of assigning the tasks and performing ones. Developing soft skills and personality is an important sphere of my interest.
