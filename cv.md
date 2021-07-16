@@ -35,7 +35,7 @@ function bmiCalculator(weight,height){
 console.log(bmiCalculator(86,1.8))
 ```
 ## Professional Experience
-Two decades of full-time professional experience including the programming language 1С as part of the job responsibilities.
+Two decades of full-time professional experience including the programming language 1С as a part of the job responsibilities.
 ## Education
 Belarusian State University of Food and Chemical Technologies mechanical engineer.
 ## English Level
