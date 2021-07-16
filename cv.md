@@ -14,7 +14,7 @@ Basic knowledge of:
 * HTML, CSS, Bootstrap, Javascript.
 
 Mastered the programming language 1С on my own.
-##Code sample
+## Code sample
 ```
 function bmiCalculator(weight,height){
  const bmi=Math.floor(weight/Math.pow(height,2));
