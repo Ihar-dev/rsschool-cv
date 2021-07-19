@@ -15,7 +15,7 @@ I`m an employee with a broad range of experience, skills and knowledge who is bo
 Basic knowledge of:
 * HTML, CSS, Bootstrap, Javascript.
 
-Mastered the programming language 1С on my own.
+Acquired the programming language 1С on my own.
 ## Code sample
 ```
 function bmiCalculator(weight,height){
@@ -39,4 +39,4 @@ Two decades of full-time professional experience including the programming langu
 ## Education
 Belarusian State University of Food and Chemical Technologies mechanical engineer.
 ## English Level
-B2 English level is proved by the EnglishScore certificate from British Council and I'm constantly working on my English language skills improving.
+B2 English level is proved by the EnglishScore certificate from British Council and I've been constantly working on my English language skills improving.
