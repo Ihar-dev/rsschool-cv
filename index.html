@@ -1,13 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ihar Kozik CV</title>
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Ubuntu&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" href="images/favicon.png">
 </head>
+
 <body>
-    
+    <aside>
+        <div class="back"></div>
+    </aside>
+    <header>
+        <div class="header-section">
+            <table class="table-section">
+                <tr>
+                    <td class="cv-photo-section">
+                        <img class="cv-photo" src="images/cv-photo.jpg" width="250" height="250" alt="cv-photo">
+                    </td>
+                    <td>
+                        <h1>Ihar Kozik</h1>
+                        <h2 class="top-text">JavaScript/Front-end Developer</h2>
+                        <h2 class="top-text">(RS School Student)</h2>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </header>
+    <main>
+        <div class="main-section">
+            <table class="table-main-section">
+                <tr>
+                    <section>
+                        <td style="vertical-align:top" class="main-aside-section">
+                            <h2 class="side-text-line">ABOUT ME</h2>
+                            <hr class="hr-side">
+                            <h4 class="side-text">I`m an employee with a broad range of experience, skills and knowledge
+                                who is both capable of assigning the tasks and performing ones. Developing soft skills
+                                and personality is an important sphere of my interest.</h4>
+                            <br>
+                            <h2 class="side-text-line">EDUCATION</h2>
+                            <hr class="hr-side">
+                            <h4 class="side-text">Belarusian State University of Food and Chemical Technologies
+                                mechanical engineer.</h4>
+                            <br>
+                            <h2 class="side-text-line">CONTACT ME</h2>
+                            <hr class="hr-side">
+                            <ul>
+                                <li class="side-text">
+                                    <h4 class="list-text">Phone: +375298484950</h4>
+                                </li>
+                                <li class="side-text">
+                                    <h4 class="list-text">Email: ihar.kozik@gmail.com</h4>
+                                </li>
+                                <li class="side-text">
+                                    <span class="list-text">Telegram : </span>
+                                    <a class="telegram-text" href="https://t.me/igorintelegram">@igorintelegram</a>
+                                </li>
+                                <br>
+                                <li class="side-text">
+                                    <span class="list-text">Discord: Ihar (@Ihar-dev) </span>
+                                    <a class="telegram-text" href="https://discord.com/invite/gFnRh8Sudg">rs-school</a>
+                                </li>
+                                <br>
+                                <li class="side-text">
+                                    <a class="telegram-text"
+                                        href="https://www.youtube.com/channel/UCA_mYt13qDH00SMDmPi--MQ/videos">YouTube</a>
+                                </li>
+                            </ul>
+                        </td>
+                    </section>
+                    <section>
+                        <td style="vertical-align:top">
+                            <h2 class="centre-text-line">PROFESSIONAL EXPERIENCE</h2>
+                            <hr class="hr-centre">
+                            <h4 class="main-text">Two decades of full-time professional experience including the
+                                programming
+                                language 1С as a part of the job responsibilities.</h4>
+                            <br>
+                            <h2 class="centre-text-line">SKILLS</h2>
+                            <hr class="hr-centre">
+                            <ul>
+                                <li class="main-text">
+                                    <h4 class="list-text-main">Basic knowledge of HTML, CSS, Bootstrap, Git, Javascript,
+                                        Cinema 4D.</h4>
+                                </li>
+                                <li class="main-text">
+                                    <h4 class="list-text-main">Acquired the programming language 1С on my own.</h4>
+                                </li>
+                                <li class="main-text">
+                                    <span class="main-text-github">You can also see my training projects on: </span>
+                                    <a class="main-text-github"
+                                        href="https://github.com/Ihar-dev?tab=repositories">GitHub</a>
+                                </li>
+                            </ul>
+                            <br>
+                            <h2 class="centre-text-line">ENGLISH LEVEL</h2>
+                            <hr class="hr-centre">
+                            <h4 class="main-text">B2 English level is proved by the EnglishScore certificate from
+                                British Council and I’ve been constantly working on my English language skills
+                                improving.</h4>
+                            <br>
+                            <h2 class="centre-text-line">CODE SAMPLE</h2>
+                            <hr class="hr-centre">
+                            <pre>
+                                <code>
+function bmiCalculator(weight,height){
+  const bmi=Math.floor(weight/Math.pow(height,2));
+  var interpretation;
+  if (bmi<18.5){
+    interpretation="Your BMI is "+bmi+", so you are underweight.";
+  }
+  if (bmi>=18.5 && bmi<=25){
+    interpretation="Your BMI is "+bmi+", so you have a normal weight."
+  }
+  if (bmi>25){
+    interpretation="Your BMI is "+bmi+", so you are overweight.";
+  }
+    return interpretation;
+  }
+console.log(bmiCalculator(86,1.8))
+                                </code>
+                            </pre>
+                        </td>
+                    </section>
+                </tr>
+            </table>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-section">
+            <table>
+                <tr>
+                    <td style="text-align: center;" class="footer-photo-section">
+                        <i>
+                            <h5>2021</h5>
+                        </i>
+                    </td>
+                    <td class="footer-photo-section">
+                        <img src="images/rsschool.png" width="71" height="60" alt="RS School">
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </footer>
 </body>
+
 </html>
