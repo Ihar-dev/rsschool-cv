@@ -1,181 +1,215 @@
 body {
-    font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
-    font-size: 3rem;
-    line-height: 1.5;
-    font-weight: 800;
-    margin-left: 60px;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 800;
+  margin-left: 60px;
 }
 
 h2,
 h3,
 h4,
 h5 {
-    margin-left: 60px;
+  margin-left: 60px;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.2s;
 }
 
 pre {
-    margin-left: 60px;
+  margin-left: 60px;
 }
 
 .list-text {
-    color: white;
-    margin-left: 0;
+  color: white;
+  margin-left: 0;
 }
 
 .list-text-main {
-    color: #787A91;
-    margin-left: 0;
+  color: #787A91;
+  margin-left: 0;
 }
 
 .telegram-text {
-    color: #B2B1B9;
-    text-decoration: none;
-
+  color: #B2B1B9;
 }
 
 .telegram-text:hover {
-    color: white;
-    text-decoration: none;
-
+  color: white;
 }
 
 
 .top-text {
-    color: #B2B1B9;
-    margin-right: 40px;
+  color: #B2B1B9;
+  margin-right: 40px;
 }
 
 .side-text {
-    margin-left: 60px;
-    color: white;
-    margin-right: 40px;
-    line-height: 1.5;
+  margin-left: 60px;
+  color: white;
+  margin-right: 40px;
+  line-height: 1.5;
 }
 
 .main-text {
-    color: #787A91;
-    margin-right: 40px;
-    margin-left: 60px;
-    line-height: 1.5;
+  color: #787A91;
+  margin-right: 40px;
+  margin-left: 60px;
+  line-height: 1.5;
 }
 
 .main-text-github {
-    text-decoration: none;
-    color: #B2B1B9;;
+  color: #B2B1B9;
+  ;
 }
 
 .main-text-github:hover {
-    color: #787A91;
+  color: #787A91;
 }
 
 .side-text-line {
-    color: white;
+  color: white;
 }
 
 .centre-text-line {
-    color: #334257;
+  color: #334257;
 }
 
 .hr-side {
-    margin-left: 60px;
-    border: none;
-    background-color: white;
-    color: white;
-    height: 2px;
+  margin-left: 60px;
+  border: none;
+  background-color: white;
+  color: white;
+  height: 2px;
 }
 
 .hr-centre {
-    margin-left: 60px;
-    margin-right: 40px;
-    border: none;
-    background-color: #334257;
-    color: #334257;
-    height: 2px;
+  margin-left: 60px;
+  margin-right: 40px;
+  border: none;
+  background-color: #334257;
+  color: #334257;
+  height: 2px;
 }
 
 .main-text-line {
-    color: #334257;
+  color: #334257;
 }
 
 .back {
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 1700px;
-    background-color: #EEEEEE;
-    position: absolute;
-    z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1700px;
+  background-color: #EEEEEE;
+  position: absolute;
+  z-index: -1;
 }
 
 .header-section {
-    width: 1000px;
-    margin: auto;
-    background-color: white;
+  width: 1000px;
+  margin: auto;
+  background-color: white;
 }
 
 .table-section {
-    border-spacing: 0;
-    height: 340px;
+  border-spacing: 0;
+  height: 340px;
 }
 
 .cv-photo-section {
-    width: 400px;
-    margin-left: 0;
-    background-color: #334257;
+  width: 400px;
+  margin-left: 0;
+  background-color: #334257;
 }
 
 .cv-photo {
-    display: block;
-    margin: auto;
-    border-radius: 50%;
+  display: block;
+  margin: auto;
+  border-radius: 50%;
 }
 
 .main-section {
-    width: 1000px;
-    margin: auto;
-    background-color: white;
+  width: 1000px;
+  margin: auto;
+  background-color: white;
 }
 
 .table-main-section {
-    border-spacing: 0;
-    height: 1050px;
+  border-spacing: 0;
+  height: 1050px;
 }
 
 .main-aside-section {
-    width: 400px;
-    margin-left: 0;
-    background-color: #334257;
+  width: 400px;
+  margin-left: 0;
+  background-color: #334257;
 }
 
 .aside-section {
-    width: 1000px;
-    margin: auto;
-    background-color: #334257;
-    color: white;
+  width: 1000px;
+  margin: auto;
+  background-color: #334257;
+  color: white;
 }
 
 .footer-section {
-    width: 1000px;
-    height: 65px;
-    margin: auto;
-    margin-top: 0;
-    background-color: #B2B1B9;
+  position: relative;
+  width: 1000px;
+  height: 65px;
+  margin: auto;
+  margin-top: 0;
+  background-color: #B2B1B9;
+  background-image: url();
+  background-position: 20% 50%;
+  background-repeat: no-repeat;
 }
 
-.footer-photo-section {
-    width: 500px;
-    margin-left: 0;
+.img-rs_school {
+  position: absolute;
+  left: 75%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.5s;
 }
 
-.details-section {
+.img-rs_school:hover {
+  width: 140px;
+  height: 52px;
+}
+
+.img-github {
+  position: absolute;
+  left: 20%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.5s;
+  border-radius: 50%;
+}
+
+.img-github:hover {
+  width: 52px;
+  height: 52px;
+}
+
+.footer-text {
+  position: relative;
+  width: 100px;
+  left: 58%;
+  top: 37%;
+}
+
+/* .details-section {
     width: 1000px;
     height: 2px;
+     border: none;
     margin: auto;
-    margin-top: 0;
     background-color: #B2B1B9;
     color: #B2B1B9;
-}
-
+} */
