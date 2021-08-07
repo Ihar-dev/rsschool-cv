@@ -107,19 +107,19 @@
             <hr class="hr-centre">
             <pre>
                             <code>
-function bmiCalculator(weight,height){
-const bmi=Math.floor(weight/Math.pow(height,2));
-var interpretation;
-if (bmi&lt;18.5){
-interpretation="Your BMI is "+bmi+", so you are underweight.";
-}
-if (bmi>=18.5 && bmi&lt;=25){
-interpretation="Your BMI is "+bmi+", so you have a normal weight."
-}
-if (bmi>25){
-interpretation="Your BMI is "+bmi+", so you are overweight.";
-}
-return interpretation;
+const bmiCalculator = (weight,height) => {
+  const bmi = Math.floor(weight / Math.pow(height,2));
+  let interpretation;
+  if (bmi &lt; 18.5){
+    interpretation = "Your BMI is "+bmi+", so you are underweight.";
+  }
+  if (bmi >= 18.5 && bmi &lt;= 25){
+    interpretation = "Your BMI is "+bmi+", so you have a normal weight."
+  }
+  if (bmi > 25){
+    interpretation = "Your BMI is "+bmi+", so you are overweight.";
+  }
+  return interpretation;
 }
 console.log(bmiCalculator(86,1.8))
                             </code>
