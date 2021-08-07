@@ -25,6 +25,12 @@ ul {
   padding-left: 35px;
 }
 
+code {
+  font-size: 0.7rem;
+  font-weight: 100;
+  line-height: 1rem;
+}
+
 a {
   cursor: pointer;
   text-decoration: none;
@@ -213,5 +219,5 @@ pre {
   left: 42%;
   top: 37%;
   font-weight: 300;
-  font-size: 14px;
+  font-size: 0.8rem;
 }
