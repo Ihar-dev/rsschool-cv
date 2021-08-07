@@ -13,7 +13,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700;900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles/style.css">
   <link rel="icon" href="images/favicon.png">
 </head>
@@ -115,14 +117,14 @@
 const bmiCalculator = (weight,height) => {
   const bmi = Math.floor(weight / Math.pow(height,2));
   let interpretation;
-  if (bmi &lt; 18.5){
-    interpretation = "Your BMI is "+bmi+", so you are underweight.";
+  if (bmi &lt; 18.5) {
+    interpretation = 'Your BMI is ' + bmi + ', so you are underweight.';
   }
-  if (bmi >= 18.5 && bmi &lt;= 25){
-    interpretation = "Your BMI is "+bmi+", so you have a normal weight."
+  if (bmi >= 18.5 && bmi &lt;= 25) {
+    interpretation = 'Your BMI is ' + bmi + ', so you have a normal weight.'
   }
-  if (bmi > 25){
-    interpretation = "Your BMI is "+bmi+", so you are overweight.";
+  if (bmi > 25) {
+    interpretation = 'Your BMI is ' + bmi + ', so you are overweight.';
   }
   return interpretation;
 }
