@@ -11,32 +11,54 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles/style.css">
   <link rel="icon" href="images/favicon.png">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
 </head>
 
 <body>
   <aside>
     <div class="back"></div>
   </aside>
-  <header>
-
-    <!--     <ul class="header-navigation">
+  <nav>
+    <div class="break"> </div>
+    <ul class="header-navigation">
       <li>
         <a class="anchor-pointer" href="#skills">Skills</a>
       </li>
       <li>
-        <a class="anchor-pointer" href="#projects">Projects</a>
+        <a class="anchor-pointer" href="#projects">My Projects</a>
       </li>
       <li>
         <a class="anchor-pointer" href="#education">Education</a>
       </li>
       <li>
-        <a class="anchor-pointer" href="#english">English</a>
+        <a class="anchor-pointer" href="#english">My English</a>
       </li>
       <li>
         <a class="anchor-pointer" href="#contacts">Contacts</a>
       </li>
-    </ul> -->
-
+      <li>
+        <a class="anchor-pointer" href="#video">About Me Video</a>
+      </li>
+    </ul>
+    <div class="wrapper">
+      <input type="checkbox" id="check-menu" name="scales">
+      <label for="check-menu">MENU</label>
+      <div class="burger-line first"></div>
+      <div class="burger-line second"></div>
+      <div class="burger-line third"></div>
+      <div class="burger-line fourth"></div>
+      <div class="main-menu">
+        <a class="anchor-pointer2" href="#skills">Skills</a>
+        <a class="anchor-pointer2" href="#projects">My Projects</a>
+        <a class="anchor-pointer2" href="#education">Education</a>
+        <a class="anchor-pointer2" href="#english">My English</a>
+        <a class="anchor-pointer2" href="#contacts">Contacts</a>
+        <a class="anchor-pointer2" href="#video">About Me Video</a>
+      </div>
+    </div>
+    <div class="nav-bottom"> </div>
+  </nav>
+  <header>
     <div class="big-section1 heigth1-section">
       <div class="left-photo-section">
         <img class="cv-photo" src="./images/cv-photo.jpg" width="250" height="250" alt="cv-photo">
@@ -128,43 +150,33 @@
         </div>
       </div>
     </section>
-    <section>
-      <div class="break">
-
-      </div>
-    </section>
+    <div class="break"> </div>
     <section>
       <div class="big-section heigth3-section">
         <div class="right-section">
           <h2 class="text-color3 text-right-margin right-text-line text1">CODE SAMPLE</h2>
-          <pre>
-                          <code>
-    const bmiCalculator = (weight,height) => {
-      const bmi = Math.floor(weight /
-      Math.pow(height,2));
-      let interpretation;
-      if (bmi &lt; 18.5) {
-      interpretation = 'Your BMI is ' + bmi +
-      ', so you are underweight.';
-    }
-    if (bmi >= 18.5 && bmi &lt;= 25) {
-      interpretation = 'Your BMI is ' + bmi +
-      ', so you have a normal weight.'
-    }
-    if (bmi > 25) {
-      interpretation = 'Your BMI is ' + bmi +
-      ', so you are overweight.';
-    }
-    return interpretation;
-    }
-    console.log(bmiCalculator(86,1.8))
-                          </code>
-                      </pre>
+          <pre><code class="javascript">
+  function getParticipants(handshakes){
+    if (handshakes == 0) return 1;
+    let h;
+    for (let p = 0; p &lt; 10000; p++) {
+      h = 0;
+      for (let j = p - 1; j > 0; j--) {
+        h += j;
+        if (h >= handshakes) return p;
+      } 
+    } 
+  }
+          </code></pre>
+          <p></p>
+          <h2 class="text-color3 text-right-margin right-text-line text1">MY LAYOUT TASK</h2>
+          <a class="text-color2 text-right-margin text1 anchor-pointer"
+            href="https://rolling-scopes-school.github.io/ihar-dev-JSFEPRESCHOOL/museum/" target="_blank">Museum</a>
         </div>
         <div class="right-section">
           <p></p>
           <p></p>
-          <h2 class="text-color3 text-right-margin right-text-line text1">MY RECENT PROJECTS</h2>
+          <h2 class="text-color3 text-right-margin right-text-line text1" id="projects">MY RECENT PROJECTS</h2>
           <a class="text-color2 text-right-margin text1 anchor-pointer"
             href="https://rolling-scopes-school.github.io/ihar-dev-JSFEPRESCHOOL/js-clock/" target="_blank">Js clock</a>
           <p class="text-color2 text-right-margin text1">Mechanical watch with moving hands - HTML, CSS and JavaScript.
@@ -174,10 +186,9 @@
             </a></p>
         </div>
       </div>
-    </section>
-    <section>
       <div class="big-section heigth3-section">
         <div class="right-section">
+          <P></P>
           <a class="text-color2 text-right-margin text1 anchor-pointer"
             href="https://rolling-scopes-school.github.io/ihar-dev-JSFEPRESCHOOL/vertical-slider/"
             target="_blank">Vertical
@@ -189,6 +200,7 @@
             </a></p>
         </div>
         <div class="right-section">
+          <P></P>
           <a class="text-color2 text-right-margin text1 anchor-pointer"
             href="https://rolling-scopes-school.github.io/ihar-dev-JSFEPRESCHOOL/custom-video-player/"
             target="_blank">Custom
@@ -204,10 +216,9 @@
       </div>
     </section>
     <section>
-      <div class="video-section">
+      <div class="video-section" id="video">
         <h2 class="text-color3 text-right-margin right-text-line text1">ABOUT ME</h2>
         <iframe class="video-frame" src="https://www.youtube.com/embed/Ehuhv85CV4U" title="YouTube video player"
-          frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen></iframe>
       </div>
@@ -227,12 +238,11 @@
       </a>
     </div>
   </footer>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+  <script>
+    hljs.initHighlightingOnLoad();
+  </script>
+  <script src="./index.js"></script>
 </body>
 
 </html>
-
-
-
-<!-- <span class="text-color2 text-right-margin text1">deploys: </span>
-<a class="text-color2 text-right-margin text1" href="https://rolling-scopes-school.github.io/ihar-dev-JSFEPRESCHOOL/museum/">
-  Museum </a> -->
