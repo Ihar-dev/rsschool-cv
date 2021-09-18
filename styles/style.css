@@ -190,8 +190,8 @@ h1 {
 
   .footer-text {
     position: relative;
-    width: 215px;
-    left: 50%;
+    width: 230px;
+    left: 44%;
     top: 78%;
     transform: translate(-50%, -50%);
     font-weight: 300;
@@ -469,7 +469,7 @@ h1 {
 
   .footer-text {
     position: relative;
-    width: 215px;
+    width: 230px;
     left: 50%;
     top: 78%;
     transform: translate(-50%, -50%);
@@ -550,7 +550,7 @@ h1 {
 
   .left-section3 {
     padding-left: 60px;
-    width: 885px;
+    width: 475px;
     color: white;
     background-color: #334257;
   }
@@ -624,7 +624,7 @@ h1 {
   .footer-text {
     position: relative;
     width: 400px;
-    left: 42%;
+    left: 40%;
     top: 37%;
     font-weight: 300;
     font-size: 0.8rem;
@@ -635,6 +635,7 @@ h1 {
   width: 100%;
   background-color: white;
   height: 0;
+  transition: all 0.5s;
 }
 
 .project-img {
