@@ -11,6 +11,26 @@ menuSwitcher.addEventListener('click', () => {
   }
 })
 
+const header = document.querySelector('header');
+header.addEventListener('click', () => {
+  document.getElementById('check-menu').checked = false;
+  navBottom.style.height = '0';
+  i = 0;
+})
+
+const main = document.querySelector('main');
+main.addEventListener('click', () => {
+  document.getElementById('check-menu').checked = false;
+  navBottom.style.height = '0';
+  i = 0;
+})
+
+const footer = document.querySelector('footer');
+footer.addEventListener('click', () => {
+  document.getElementById('check-menu').checked = false;
+  navBottom.style.height = '0';
+  i = 0;
+})
 
 console.log('Score: 150 / 150 (за выполнение всех пунктов требований - 160 баллов).');
 console.log('Критерии оценки:');
