@@ -269,7 +269,7 @@ h1 {
     left: 0;
     transform: translateY(100%);
     transition: all 0.2s;
-    z
+    z-index: 200;
   }
 
   #check-menu {
