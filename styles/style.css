@@ -218,6 +218,8 @@ h1 {
   }
 
   .video-section {
+    display: flex;
+    flex-direction: column;
     width: 100%;
     height: calc(100vw * 0.5625 + 71px);
     margin: auto;
@@ -227,6 +229,8 @@ h1 {
 
 @media only screen and (max-width: 700px) {
   .video-section {
+    display: flex;
+    flex-direction: column;
     width: 100%;
     height: calc(100vw * 0.5625 + 71px);
     margin: auto;
@@ -265,6 +269,7 @@ h1 {
     left: 0;
     transform: translateY(100%);
     transition: all 0.2s;
+    z
   }
 
   #check-menu {
@@ -348,7 +353,7 @@ h1 {
     top: 0;
     left: 0;
     width: 100%;
-    height: 5160px;
+    height: 5150px;
     background-color: var(--light-color);
     z-index: -1;
   }
@@ -590,6 +595,8 @@ h1 {
   }
 
   .video-section {
+    display: flex;
+    flex-direction: column;
     width: 1000px;
     height: 633px;
     margin: auto;

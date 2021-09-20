@@ -1,35 +1,62 @@
 const navBottom = document.querySelector('.nav-bottom');
 const menuSwitcher = document.querySelector('#check-menu');
+const back = document.querySelector('.back');
 let i = 0;
 menuSwitcher.addEventListener('click', () => {
   if (i == 0) {
     navBottom.style.height = '350px';
+    back.style.height = '5500px';
     i = 1;
   } else {
     navBottom.style.height = '0';
+    back.style.height = '5150px';
     i = 0;
   }
 })
 
+window.addEventListener('resize', () => {
+  if (document.body.clientWidth > 667) {
+    navBottom.style.height = '0';
+    i = 0;
+  } else {
+    if (document.getElementById('check-menu').checked) {
+      navBottom.style.height = '350px';
+      i = 1;
+      back.style.height = '5500px';
+    } else back.style.height = '5150px';
+  }
+  if (document.body.clientWidth > 991) back.style.height = '3000px';
+  if (document.body.clientWidth >= 667 && document.body.clientWidth < 991) back.style.height = '5430px';
+}, false);
+
 const header = document.querySelector('header');
 header.addEventListener('click', () => {
-  document.getElementById('check-menu').checked = false;
-  navBottom.style.height = '0';
-  i = 0;
+  if (document.body.clientWidth <= 667) {
+    document.getElementById('check-menu').checked = false;
+    navBottom.style.height = '0';
+    back.style.height = '5150px';
+    i = 0;
+  }
 })
 
 const main = document.querySelector('main');
 main.addEventListener('click', () => {
-  document.getElementById('check-menu').checked = false;
-  navBottom.style.height = '0';
-  i = 0;
+  if (document.body.clientWidth <= 667) {
+    document.getElementById('check-menu').checked = false;
+    navBottom.style.height = '0';
+    back.style.height = '5150px';
+    i = 0;
+  }
 })
 
 const footer = document.querySelector('footer');
 footer.addEventListener('click', () => {
-  document.getElementById('check-menu').checked = false;
-  navBottom.style.height = '0';
-  i = 0;
+  if (document.body.clientWidth <= 667) {
+    document.getElementById('check-menu').checked = false;
+    navBottom.style.height = '0';
+    back.style.height = '5150px';
+    i = 0;
+  }
 })
 
 console.log('Score: 150 / 150 (за выполнение всех пунктов требований - 160 баллов).');
