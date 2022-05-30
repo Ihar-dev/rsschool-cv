@@ -1,0 +1,244 @@
+@media (max-width: 700px) {
+
+  .video-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: calc(100vw * 0.5625 + 71px);
+    margin: auto;
+    background-color: white;
+  }
+
+  .wrapper {
+    display: block;
+    position: relative;
+    height: 40px;
+    width: 100%;
+    line-height: 50px;
+    font-size: 22px;
+    letter-spacing: 1px;
+    text-align: center;
+    background-color: white;
+  }
+
+  #check-menu:checked~.main-menu {
+    max-height: 500px;
+    font-size: 22px;
+  }
+
+  #check-menu:checked~.first {
+    display: none;
+  }
+
+  #check-menu:checked~.second {
+    transform: rotate(45deg);
+  }
+
+  #check-menu:checked~.third {
+    transform: rotate(-45deg);
+  }
+
+  #check-menu:checked~.fourth {
+    display: none;
+  }
+
+  .main-menu {
+    display: block;
+    position: absolute;
+    max-height: 0;
+    font-size: 0;
+    overflow: hidden;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    transform: translateY(100%);
+    transition: all 0.2s;
+    z-index: 200;
+  }
+
+  #check-menu {
+    display: none;
+  }
+
+  label {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    line-height: 40px;
+    z-index: 2;
+    color: var(--grey-color);
+    transition: all 0.5s;
+  }
+
+  label:hover {
+    color: var(--dark-color);
+  }
+
+  label:hover~.burger-line {
+    background-color: var(--dark-color);
+  }
+
+  .anchor-pointer2 {
+    display: block;
+    width: 100%;
+    color: var(--light-grey-color);
+    text-decoration: none;
+    border-top: 3px solid var(--light-color);
+    background-color: white;
+    transition: all 0.5s;
+  }
+
+  .anchor-pointer2:hover {
+    color: var(--grey-color);
+  }
+
+  .first {
+    top: 8px;
+  }
+
+  .second,
+  .third {
+    top: 18px;
+  }
+
+  .fourth {
+    top: 28px;
+  }
+
+  .burger-line {
+    position: absolute;
+    right: 10px;
+    width: 25px;
+    height: 2px;
+    background-color: var(--grey-color);
+  }
+
+  .header-navigation {
+    display: none;
+  }
+
+  .back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5150px;
+    background-color: var(--light-color);
+    z-index: -1;
+  }
+
+  .big-section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    background-color: white;
+  }
+
+  .heigth1-section {
+    height: 570px;
+  }
+
+  .heigth2-section {
+    height: 400px;
+  }
+
+  .heigth3-section {
+    height: 1085px;
+  }
+
+  .left-photo-section {
+    width: 100%;
+    height: 300px;
+    color: white;
+    background-color: var(--dark-color);
+  }
+
+  .left-section3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    min-width: 320px;
+    height: 320px;
+    color: white;
+    background-color: var(--dark-color);
+  }
+
+  .left-section2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    min-width: 320px;
+    height: 320px;
+    color: white;
+    background-color: var(--dark-color);
+  }
+
+  .text-right-margin {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  .video-frame {
+    width: 100%;
+    height: calc(100vw * 0.5625);
+    border: 0;
+  }
+
+  .footer-section {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    margin-top: 0;
+    background-color: var(--light-grey-color);
+    background-position: 20% 50%;
+    background-repeat: no-repeat;
+  }
+
+  .img-rs_school {
+    position: absolute;
+    left: 68%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    transition: all 0.2s;
+  }
+
+  .img-rs_school:hover {
+    width: 140px;
+    height: 52px;
+  }
+
+  .img-github {
+    position: absolute;
+    left: 20%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    transition: all 0.2s;
+    border-radius: 50%;
+  }
+
+  .img-github:hover {
+    width: 52px;
+    height: 52px;
+  }
+
+  .footer-text {
+    position: relative;
+    width: 230px;
+    left: 50%;
+    top: 78%;
+    transform: translate(-50%, -50%);
+    font-weight: 300;
+    font-size: 0.8rem;
+  }
+}
