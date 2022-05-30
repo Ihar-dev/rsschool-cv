@@ -1,3 +1,207 @@
+
+.nav-bottom {
+  width: 100%;
+  background-color: white;
+  height: 0;
+  transition: all 0.5s;
+}
+
+p {
+  line-height: 1.3rem;
+}
+
+.text-color1 {
+  color: black;
+}
+
+.text-color2 {
+  color: var(--grey-color);
+}
+
+.text-color3 {
+  color: var(--dark-color);
+}
+
+.right-text-line {
+  padding-bottom: 20px;
+  border-bottom: 2px solid var(--dark-color);
+}
+
+.side-text-line {
+  padding-bottom: 20px;
+  border-bottom: 2px solid white;
+}
+
+.side-text {
+  padding-right: 10px;
+}
+
+li a {
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+.contact-pointer {
+  color: var(--grey-color);
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+.contact-pointer:hover {
+  color: white;
+}
+
+.anchor-pointer {
+  padding-left: 19px;
+  padding-right: 19px;
+  color: var(--light-grey-color);
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+.anchor-pointer:hover {
+  color: var(--grey-color);
+}
+
+.header-navigation li {
+  list-style: none;
+}
+
+.wrapper {
+  display: none;
+}
+
+.header-navigation {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1000px;
+  padding-left: 0;
+  display: flex;
+  align-content: flex-start;
+  line-height: 50px;
+  font-size: 22px;
+  letter-spacing: 1px;
+  background-color: white;
+}
+
+.back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3000px;
+  background-color: var(--light-color);
+  z-index: -1;
+}
+
+.big-section1 {
+  display: flex;
+  flex-direction: row;
+  width: 1000px;
+  margin: auto;
+  background-color: white;
+}
+
+.heigth1-section {
+  height: 290px;
+}
+
+.heigth2-section {
+  height: 250px;
+}
+
+.heigth3-section {
+  height: 430px;
+}
+
+.left-photo-section {
+  width: 400px;
+  color: white;
+  background-color: #334257;
+}
+
+.left-section2 {
+  padding-left: 60px;
+  width: 471px;
+  color: white;
+  background-color: #334257;
+}
+
+.left-section3 {
+  padding-left: 60px;
+  width: 475px;
+  color: white;
+  background-color: #334257;
+}
+
+.text-right-margin {
+  margin-right: 40px;
+}
+
+.video-section {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  height: 633px;
+  margin: auto;
+  background-color: white;
+}
+
+.video-frame {
+  width: 1000px;
+  height: 562px;
+  border: 0;
+}
+
+.footer-section {
+  position: relative;
+  width: 1000px;
+  height: 65px;
+  margin: auto;
+  margin-top: 0;
+  background-color: var(--light-grey-color);
+  background-position: 20% 50%;
+  background-repeat: no-repeat;
+}
+
+.img-rs_school {
+  position: absolute;
+  left: 82%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.2s;
+}
+
+.img-rs_school:hover {
+  width: 140px;
+  height: 52px;
+}
+
+.img-github {
+  position: absolute;
+  left: 20%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.2s;
+  border-radius: 50%;
+}
+
+.img-github:hover {
+  width: 52px;
+  height: 52px;
+}
+
+.footer-text {
+  position: relative;
+  width: 400px;
+  left: 40%;
+  top: 37%;
+  font-weight: 300;
+  font-size: 0.8rem;
+}
+
 .big-sect {
   display: flex;
   flex-direction: row;
@@ -752,207 +956,4 @@ h1 {
     font-weight: 300;
     font-size: 0.8rem;
   }
-}
-
-.nav-bottom {
-  width: 100%;
-  background-color: white;
-  height: 0;
-  transition: all 0.5s;
-}
-
-p {
-  line-height: 1.3rem;
-}
-
-.text-color1 {
-  color: black;
-}
-
-.text-color2 {
-  color: var(--grey-color);
-}
-
-.text-color3 {
-  color: var(--dark-color);
-}
-
-.right-text-line {
-  padding-bottom: 20px;
-  border-bottom: 2px solid var(--dark-color);
-}
-
-.side-text-line {
-  padding-bottom: 20px;
-  border-bottom: 2px solid white;
-}
-
-.side-text {
-  padding-right: 10px;
-}
-
-li a {
-  cursor: pointer;
-  text-decoration: none;
-  transition: all 0.5s;
-}
-
-.contact-pointer {
-  color: var(--grey-color);
-  text-decoration: none;
-  transition: all 0.5s;
-}
-
-.contact-pointer:hover {
-  color: white;
-}
-
-.anchor-pointer {
-  padding-left: 19px;
-  padding-right: 19px;
-  color: var(--light-grey-color);
-  text-decoration: none;
-  transition: all 0.5s;
-}
-
-.anchor-pointer:hover {
-  color: var(--grey-color);
-}
-
-.header-navigation li {
-  list-style: none;
-}
-
-.wrapper {
-  display: none;
-}
-
-.header-navigation {
-  position: relative;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 1000px;
-  padding-left: 0;
-  display: flex;
-  align-content: flex-start;
-  line-height: 50px;
-  font-size: 22px;
-  letter-spacing: 1px;
-  background-color: white;
-}
-
-.back {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 3000px;
-  background-color: var(--light-color);
-  z-index: -1;
-}
-
-.big-section1 {
-  display: flex;
-  flex-direction: row;
-  width: 1000px;
-  margin: auto;
-  background-color: white;
-}
-
-.heigth1-section {
-  height: 290px;
-}
-
-.heigth2-section {
-  height: 250px;
-}
-
-.heigth3-section {
-  height: 430px;
-}
-
-.left-photo-section {
-  width: 400px;
-  color: white;
-  background-color: #334257;
-}
-
-.left-section2 {
-  padding-left: 60px;
-  width: 471px;
-  color: white;
-  background-color: #334257;
-}
-
-.left-section3 {
-  padding-left: 60px;
-  width: 475px;
-  color: white;
-  background-color: #334257;
-}
-
-.text-right-margin {
-  margin-right: 40px;
-}
-
-.video-section {
-  display: flex;
-  flex-direction: column;
-  width: 1000px;
-  height: 633px;
-  margin: auto;
-  background-color: white;
-}
-
-.video-frame {
-  width: 1000px;
-  height: 562px;
-  border: 0;
-}
-
-.footer-section {
-  position: relative;
-  width: 1000px;
-  height: 65px;
-  margin: auto;
-  margin-top: 0;
-  background-color: var(--light-grey-color);
-  background-position: 20% 50%;
-  background-repeat: no-repeat;
-}
-
-.img-rs_school {
-  position: absolute;
-  left: 82%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  transition: all 0.2s;
-}
-
-.img-rs_school:hover {
-  width: 140px;
-  height: 52px;
-}
-
-.img-github {
-  position: absolute;
-  left: 20%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  transition: all 0.2s;
-  border-radius: 50%;
-}
-
-.img-github:hover {
-  width: 52px;
-  height: 52px;
-}
-
-.footer-text {
-  position: relative;
-  width: 400px;
-  left: 40%;
-  top: 37%;
-  font-weight: 300;
-  font-size: 0.8rem;
 }
